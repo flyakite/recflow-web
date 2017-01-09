@@ -1,0 +1,8 @@
+name: recflow-web
+exclude: ["CNAME", "README.md"]
+
+
+# jekyll-multiple-languages-plugin settings:
+
+languages: ["en", "tw"]
+exclude_from_localizations : ["css", "fonts", "img", "js", "favicon.png"]
