@@ -1,7 +1,7 @@
 name: recflow-web
 exclude: ["CNAME", "README.md"]
 
-gem:
+gems:
   - jekyll-multiple-languages-plugin
 
 # jekyll-multiple-languages-plugin settings:
