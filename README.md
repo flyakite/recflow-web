@@ -1,3 +1,7 @@
-## Use jekyll-language-plugin:
+## Edit
 
-https://github.com/vwochnik/jekyll-language-plugin
+Edit src/*
+
+## Build
+
+`gulp build`

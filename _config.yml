@@ -1,19 +1,8 @@
 name: recflow-web
 email: hello@recflow.com
 exclude: ["CNAME", "README.md"]
-plugins_dir:  _plugins
 gems:
   - jekyll-sitemap
-  - jekyll-language-plugin
 
 # Build settings
 markdown: kramdown
-
-#jekyll-language-plugin
-languages: ["en", "tw"]
-language_data: data.lang.%%
-language_includes_dir: _i18n
-# jekyll-multiple-languages-plugin settings:
-
-#languages: ["en", "tw"]
-#exclude_from_localizations : ["css", "fonts", "img", "js", "favicon.png"]

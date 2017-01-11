@@ -1,0 +1,30 @@
+{
+  "name": "recflow-web",
+  "version": "1.0.0",
+  "description": "https://github.com/vwochnik/jekyll-language-plugin",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-i18n": "^0.6.5"
+  },
+  "devDependencies": {
+    "gulp-html-i18n": "^0.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyakite/recflow-web.git"
+  },
+  "keywords": [
+    "recflow",
+    "testing"
+  ],
+  "author": "Shih-Wen Su",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyakite/recflow-web/issues"
+  },
+  "homepage": "https://github.com/flyakite/recflow-web#readme"
+}
