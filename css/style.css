@@ -67,3 +67,17 @@ footer.page-footer {
   -o-filter: brightness(75%);
   -ms-filter: brightness(75%);
 }
+
+/*blinker*/
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.1; }
+}
+
+.icon-small {
+  height: 16px;
+  width: 16px;
+}

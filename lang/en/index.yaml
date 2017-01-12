@@ -1,5 +1,54 @@
+toggleLanguage: 中文
+toggleLanguageUrl: /tw/ 
 login: Log In
 signup: Sign Up
 freeRegistration: Free Registration
-header1: Web Testing Automation Without Coding
+header1: Start Web Testing Automation in A Minute
 header2: Put your testing scenarios on real mobile devices.
+
+tryitoutforfree: Try it out for Free
+qualitymaters: Quality Matters
+qualitymaterscontent: > 
+  User experience is the key to growth and customer retention. 
+  13% of users leave a service and never come back because of the glitches and bugs in the App. 
+  You want to find bugs before your users do.
+testingautomation: Testing Automation
+testingautomationcontent: >
+  Do you still test your service manually? 
+  Have you fixed a bug but result in another error? 
+  Try our UI testing automation tool to cover all different scenarios.
+nocodingrequired: No Coding Required
+nocodingrequiredcontent: >
+  You can simply record and playback your actions to test your App. 
+  No code modification, no coding skill needed. 
+  Anyone can get started in 5 minutes.
+
+secondheader: Release your web service with confidence.
+
+howitworks: How it works?
+
+installextension: Install Chrome Extension
+installextensioncontent1: Make sure you are using
+installextensioncontent2: And then
+installrecflow: Install RecFlow
+
+recordtestingscenario: Record Testing Scenario
+recordtestingscenariocontent1: Click on the RecFlow extension icon
+recordtestingscenariocontent2: >
+  and go to recording mode, 
+  and what you click and type on your website will be remembered for later playback on mobile devices.
+
+selectdevices: Select Devices
+selectdevicescontent: Select which devices you want to test on. We are adding new devices every month.
+
+gettestresult: Get Test Result
+gettestresultcontent: After testing, you'll get JavaScript debug log, snapshots and a complete video for your test.
+
+
+subscribe: Subscribe to major updates
+subscribeformurl: https://docs.google.com/forms/d/e/1FAIpQLSc_Avk4qUknFZJWxpgSgWNuRxC8LQurmllkjpu62r_i28M5yQ/viewform
+
+# footer
+requestademo: Request a Demo
+requestarecflowdemo: Request a Recflow Demo
+haveaquestion: I have question

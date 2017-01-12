@@ -20,7 +20,7 @@
         <img src="/img/recflow_logo_horizon_small.png">
       </a>
       <ul class="right hide-on-med-and-down">
-
+        <li><a href="${{ index.toggleLanguageUrl }}$">${{ index.toggleLanguage }}$</a></li>
         <li><a href="https://console.recflow.com/accounts/signup/">${{ index.signup }}$</a></li>
         <li><a href="https://console.recflow.com/accounts/login/">${{ index.login }}$</a></li>
       </ul>
@@ -42,8 +42,8 @@
           <h5 class="header col s12 light">${{ index.header2 }}$</h5>
         </div>
         <div class="row center">
-          <a href="#request-a-demo" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
-            Get Started
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
+            ${{ index.tryitoutforfree }}$
           </a>
         </div>
         <br><br>
@@ -62,27 +62,27 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">stars</i></h2>
-            <h5 class="center">Quality Matters</h5>
+            <h5 class="center">${{ index.qualitymaters }}$</h5>
 
-            <p class="light">User experience is the key to growth and customer retention. 13% of users leave a service and never come back because of the glitches and bugs in the App. We can help you release your service with quality.</p>
+            <p class="light">${{ index.qualitymaterscontent }}$</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">verified_user</i></h2>
-            <h5 class="center">Testing Automation</h5>
+            <h5 class="center">${{ index.testingautomation }}$</h5>
 
-            <p class="light">Do you still test your service manually? Have you fixed a bug but result in another error? Try our UI testing automation tool to cover all different scenarios.</p>
+            <p class="light">${{ index.testingautomationcontent }}$</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">code</i></h2>
-            <h5 class="center">No Coding Required</h5>
+            <h5 class="center">${{ index.nocodingrequired }}$</h5>
 
-            <p class="light">You can simply record and playback your actions to test your App. No code modification, no coding skill needed. Anyone can get started in 10 minutes.</p>
+            <p class="light">${{ index.nocodingrequiredcontent }}$</p>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Release your web service with confidence.</h5>
+          <h5 class="header col s12 light">${{ index.secondheader }}$</h5>
         </div>
       </div>
     </div>
@@ -108,17 +108,71 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Become Our Pilot User</h4>
-          <p class="left-align light">
-            We are looking for pilot users to join our beta release. Of course, the tool and service will be free for pilot users. We'll do our best to improve your web service quality and together create a successful story.
-            <br>
-          </p>
+          <h4>RecFlow ${{ index.howitworks }}$</h4>
+          <div class="row">
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">extension</i></h2>
+                <h5 class="center">1. ${{ index.installextension }}$</h5>
+
+                <p class="light">
+                  ${{ index.installextensioncontent1 }}$
+                  <a href="https://www.google.com/chrome/browser/desktop/index.html">Chrome</a> <br>
+                  ${{ index.installextensioncontent2 }}$
+                  <a href="#">${{ index.installrecflow }}$</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">fiber_manual_record</i></h2>
+                <h5 class="center">2. ${{ index.recordtestingscenario }}$</h5>
+
+                <p class="light">
+                  ${{ index.recordtestingscenariocontent1 }}$
+                  <img class="icon-small" src="/img/recflow_icon_120x120.png">
+                  ${{ index.recordtestingscenariocontent2 }}$
+                </p>
+              </div>
+            </div>
+
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">devices</i></h2>
+                <h5 class="center">3. ${{ index.selectdevices }}$</h5>
+
+                <p class="light">${{ index.selectdevicescontent }}$</p>
+              </div>
+            </div>
+
+            <div class="col s12 m3">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">bug_report</i></h2>
+                <h5 class="center">4. ${{ index.gettestresult }}$</h5>
+
+                <p class="light">${{ index.gettestresultcontent }}$</p>
+              </div>
+            </div>
+          </div>
+
           <div class="row center">
-            <a target="_blank" href="mailto:hello@recflow.com?subject=Request a RecFlow Demo" class="btn-large waves-effect waves-light teal lighten-1">
-              <i class="material-icons left">email</i>
-              Request a Demo
-            </a>
             <br>
+            <p>
+              <a target="_blank" href="#" 
+                class="btn-large waves-effect waves-light teal lighten-1">
+                <i class="material-icons left">accessibility</i>
+                ${{ index.tryitoutforfree }}$
+              </a>
+            </p>
+            <p>
+              <br>
+              <a target="_blank" href="${{ index.subscribeformurl }}$" 
+                class="btn-large waves-effect waves-light teal lighten-1">
+                <i class="material-icons left">touch_app</i>
+                ${{ index.subscribe }}$
+              </a>
+            </p>
             <br>
             <br>
           </div>
@@ -143,30 +197,23 @@
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
-        <div class="col l5 s12">
+        <!--<div class="col l5 s12">
           <h5 class="grey-text text-lighten-1">About Us</h5>
           <p class="grey-text text-lighten-1">We are a small team trying to do a small thing in a great way.</p>
-
-
-        </div>
-        <!--div class="col l3 s12">
+        </div>-->
+        <!--<div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>-->
+        <div class="col l3 s12">
+          <!--<h5 class="white-text">Connect</h5>-->
+          <ul>
+            <li><a class="white-text" target="_blank" href="mailto:hello@recflow.com?subject=${{ index.requestarecflowdemo }}$"> ${{ index.requestademo }}$</a></li>
+            <li><a class="white-text" target="_blank" href="mailto:hello@recflow.com?subject=${{ index.haveaquestion }}$"> ${{ index.haveaquestion }}$</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div-->
       </div>
     </div>
     <div class="footer-copyright">
