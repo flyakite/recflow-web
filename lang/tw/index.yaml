@@ -1,8 +1,10 @@
 # meta
-metadescription: 五分鐘就上手的網頁自動測試工具
+metadescription: 五分鐘就上手的網頁自動測試工具，
 metakeywords: >
-  網頁測試, 行動裝置, 自動化測試, 雲端測試, 
-  iphone 測試, android 測試, ipad 測試, 瀏覽器測試
+  網頁測試, 行動裝置, 自動化測試, 雲端測試, debug,
+  iphone 測試, android 測試, ipad 測試, 瀏覽器測試, 手機測試, 平板測試
+ogtitle: 五分鐘就上手的手機版網頁測試工具
+ogdescription: 四個步驟教你如何在雲端手機、平板上做測試和除錯
 
 toggleLanguage: English
 toggleLanguageUrl: /
@@ -45,7 +47,7 @@ recordtestingscenariocontent2: >
   然後所有您的點擊和輸入會被依序記錄下來，之後會放到實體的行動裝置上回放同樣的步驟做測試。
 
 selectdevices: 選擇行動裝置
-selectdevicescontent: 選擇您想要測試的行動裝置。我們正陸續增加可以測試的行動裝置。
+selectdevicescontent: 免費選擇您想要測試的手機、平板電腦。(我們正陸續增加可以付費使用的其他行動裝置。)
 
 gettestresult: 得到測試結果
 gettestresultcontent: 測試跑完後，您會得到 JavaScript 除錯訊息、螢幕截圖和裝置上完整的操作影片等。

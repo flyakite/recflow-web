@@ -1,23 +1,26 @@
 # meta
-metadescription: Web testing automation on real devices without coding.
+metadescription: Web testing automation on real devices without coding. Here 4 steps to debug your website on mobile devices you don't have.
 metakeywords: >
   website testing, mobile devices, testing automation, testing in the cloud,
   testing on iphone, testing on android phone, testing on ipad,
   browser testing, acceptance testing
+ogtitle: Web testing automation on real devices without coding.
+ogdescription: 4 steps to debug your website on mobile devices you don't have.
+
 
 toggleLanguage: 中文
 toggleLanguageUrl: /tw/ 
 login: Log In
 signup: Sign Up
 freeRegistration: Free Registration
-header1: Start Web Testing Automation in A Minute
+header1: Start Web Testing Automation in 5 Minutes
 header2: Put your testing scenarios on real mobile devices.
 
 tryitoutforfree: Try it out for Free
 qualitymaters: Quality Matters
 qualitymaterscontent: > 
   User experience is the key to growth and customer retention. 
-  13% of users leave a service and never come back because of the glitches and bugs in the App. 
+  13% of users leave a service and never come back because of the glitches and bugs in the service. 
   You want to find bugs before your users do.
 testingautomation: Testing Automation
 testingautomationcontent: >
