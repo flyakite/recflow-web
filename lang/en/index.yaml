@@ -10,6 +10,7 @@ ogdescription: 4 steps to debug your website on mobile devices you don't have.
 
 toggleLanguage: 中文
 toggleLanguageUrl: /tw/ 
+consoleLanguageKey: en
 login: Log In
 signup: Sign Up
 freeRegistration: Free Registration
