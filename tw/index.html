@@ -21,7 +21,7 @@
   <!-- CSS  -->
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
@@ -65,7 +65,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="/img/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="/img/background1-500.jpg" srcset="/img/background1-1000.jpg 1000w, /img/background1.jpg 1440w" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -117,7 +117,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="/img/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="/img/background2.jpg" srcset="/img/background2-1000.jpg 1000w, /img/background2.jpg 1440w" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -243,9 +243,9 @@
 
 
   <!--  Scripts-->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/materialize.min.js"></script>
-  <script src="/js/init.js"></script>
+  <script async src="/js/jquery.min.js"></script>
+  <script async src="/js/materialize.min.js"></script>
+  <script async src="/js/init.js"></script>
 
   </body>
 </html>
