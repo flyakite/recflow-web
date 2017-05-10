@@ -12,11 +12,14 @@ consoleLanguageKey: zh-TW
 signup: 註冊
 login: 登入
 freeRegistration: 免費註冊
-header1: 五分鐘就上手的網頁自動測試工具
-header2: 幫您把網站放到真的行動裝置上測試
+header1: 跨平台網頁自動測試工具
+header2: 把您的網站一次放到不同裝置上測試
 
+enterurltotest: http://myweb.com 輸入網址開始測試
+urlwarningmsg: 不是有效的網址，應該長得像 https://www.google.com
+testmywebsite: 測試我的網站
 tryitoutforfree: 免費測試您的網站
-qualitymaters: 品質最重要
+qualitymaters: 比使用者先發現問題
 qualitymaterscontent: >
   使用者體驗是成長和留住客戶的關鍵，
   百分之 13 的使用者會因為產品出錯而轉向替代性的產品，

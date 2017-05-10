@@ -14,11 +14,14 @@ consoleLanguageKey: en
 login: Log In
 signup: Sign Up
 freeRegistration: Free Registration
-header1: Start Web Testing Automation in 5 Minutes
-header2: Put your testing scenarios on real mobile devices.
+header1: Cross Browser Testing Automation
+header2: Test your website on multiple real devices.
 
+enterurltotest: http://myweb.com Enter URL to test
+urlwarningmsg: Invalid URL, a URL should looks like https://www.google.com
+testmywebsite: Test My Website
 tryitoutforfree: Try it out for Free
-qualitymaters: Quality Matters
+qualitymaters: Find bugs before your users do
 qualitymaterscontent: > 
   User experience is the key to growth and customer retention. 
   13% of users leave a service and never come back because of the glitches and bugs in the service. 

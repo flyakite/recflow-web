@@ -55,8 +55,12 @@
           <h5 class="header col s12 light">${{ index.header2 }}$</h5>
         </div>
         <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
-            ${{ index.tryitoutforfree }}$
+          <div class="input-field">
+            <input id="url-to-test" type="url" class="url-to-test" placeholder="${{ index.enterurltotest }}$">
+          </div>
+          <div id="url-warning-msg" class="url-warning-msg">${{ index.urlwarningmsg }}$</div>
+          <a href id="test-my-website-button" class="btn-large waves-effect waves-light teal lighten-1">
+            ${{ index.testmywebsite }}$
           </a>
         </div>
         <br><br>
