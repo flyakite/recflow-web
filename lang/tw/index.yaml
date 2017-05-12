@@ -17,6 +17,7 @@ header2: 把您的網站一次放到不同裝置上測試
 
 enterurltotest: http://myweb.com 輸入網址開始測試
 urlwarningmsg: 不是有效的網址，應該長得像 https://www.google.com
+addhttpconfirmmsg: 你的意思是
 testmywebsite: 測試我的網站
 tryitoutforfree: 免費測試您的網站
 qualitymaters: 比使用者先發現問題

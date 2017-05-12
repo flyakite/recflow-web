@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta charset="UTF-8">
-  <meta name="description" content="${{ index.metadescription }}$">
+  <meta name="description" content="${{ index.header1 }}$ ${{index.header2}}$ ${{ index.metadescription }}$">
   <meta name="keywords" content="${{ index.metakeywords }}$">
   <meta name="author" content="RecFlow Team">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -11,7 +11,7 @@
   <meta property="og:url" content="http://www.recflow.com/${{ _lang_ }}$/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${{ index.ogtitle }}$" />
-  <meta property="og:description" content="${{ index.ogdescription }}$" />
+  <meta property="og:description" content="${{ index.header1 }}$ ${{index.header2}}$ ${{ index.ogdescription }}$" />
   <meta property="og:image" content="http://www.recflow.com/img/background1.jpg" />
   
 
@@ -59,6 +59,7 @@
             <input id="url-to-test" type="url" class="url-to-test" placeholder="${{ index.enterurltotest }}$">
           </div>
           <div id="url-warning-msg" class="url-warning-msg">${{ index.urlwarningmsg }}$</div>
+          <span id="add-http-confirm-msg" class="hidden">${{ index.addhttpconfirmmsg }}$</span>
           <a href id="test-my-website-button" class="btn-large waves-effect waves-light teal lighten-1">
             ${{ index.testmywebsite }}$
           </a>

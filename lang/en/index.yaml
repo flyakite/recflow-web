@@ -19,6 +19,7 @@ header2: Test your website on multiple real devices.
 
 enterurltotest: http://myweb.com Enter URL to test
 urlwarningmsg: Invalid URL, a URL should looks like https://www.google.com
+addhttpconfirmmsg: Do you mean
 testmywebsite: Test My Website
 tryitoutforfree: Try it out for Free
 qualitymaters: Find bugs before your users do
