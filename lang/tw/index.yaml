@@ -1,10 +1,9 @@
 # meta
 metadescription: 五分鐘就上手的網頁自動測試工具，
 metakeywords: >
-  網頁測試, 行動裝置, 自動化測試, 雲端測試, debug,
-  iphone 測試, android 測試, ipad 測試, 瀏覽器測試, 手機測試, 平板測試
-ogtitle: 五分鐘就上手的手機版網頁測試工具
-ogdescription: 四個步驟教你如何在雲端手機、平板上做網站測試和除錯
+  網頁測試, 跨平台測試, 測試外包, 測試平台, app 測試
+ogtitle: 網站、App 跨平台測試服務
+ogdescription: 如何驗證你的網站、App在不同裝置上都能正常運作？跨平台測試
 
 toggleLanguage: English
 toggleLanguageUrl: /
@@ -13,7 +12,7 @@ signup: 註冊
 login: 登入
 freeRegistration: 免費註冊
 header1: 跨平台網頁自動測試工具
-header2: 把您的網站一次放到不同裝置上測試
+header2: 同時測試多種行動裝置
 
 enterurltotest: http://myweb.com 輸入網址開始測試
 urlwarningmsg: 不是有效的網址，應該長得像 https://www.google.com

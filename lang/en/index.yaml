@@ -1,9 +1,7 @@
 # meta
 metadescription: Web testing automation on real devices without coding. Here 4 steps to debug your website on mobile devices you don't have.
 metakeywords: >
-  website testing, mobile devices, testing automation, testing in the cloud,
-  testing on iphone, testing on android phone, testing on ipad,
-  browser testing, acceptance testing
+  web testing, cross-platform testing, testing out-sourcing, testing platform, app testing
 ogtitle: Web testing automation on real devices without coding.
 ogdescription: 4 steps to debug your website on mobile devices you don't have.
 
@@ -15,7 +13,7 @@ login: Log In
 signup: Sign Up
 freeRegistration: Free Registration
 header1: Cross Browser Testing Automation
-header2: Test your website on multiple real devices.
+header2: Test your website on real mobile devices.
 
 enterurltotest: http://myweb.com Enter URL to test
 urlwarningmsg: Invalid URL, a URL should looks like https://www.google.com
